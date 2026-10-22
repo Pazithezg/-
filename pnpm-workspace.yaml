@@ -1,0 +1,9 @@
+# Run installed scripts offline; install dependencies explicitly when the manifest changes.
+verifyDepsBeforeRun: false
+allowBuilds:
+  '@prisma/client': true
+  '@prisma/engines': true
+  esbuild: true
+  prisma: true
+  sharp: true
+  unrs-resolver: true
